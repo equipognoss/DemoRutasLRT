@@ -33,6 +33,10 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Gnoss.ApiWrapper, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Libraries\Gnoss.ApiWrapper.dll</HintPath>
+    </Reference>
     <Reference Include="LumenWorks.Framework.IO, Version=3.9.1.0, Culture=neutral, PublicKeyToken=5ad3ea2f85776344, processorArchitecture=MSIL">
       <HintPath>..\packages\LumenWorksCsvReader.3.9.1\lib\net20\LumenWorks.Framework.IO.dll</HintPath>
       <Private>True</Private>
@@ -113,12 +117,6 @@
     <Content Include="Ontolgies\touristservice.xml" />
     <Content Include="Ontolgies\transport.xml" />
     <Content Include="Ontolgies\winery.xml" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="F:\GNOSS\Solucion3\GnossApiWrapper_cargas\Gnoss.ApiWrapper\Gnoss.ApiWrapper.csproj">
-      <Project>{cc102872-9ca6-4062-b5f1-ea9004c8d5c5}</Project>
-      <Name>Gnoss.ApiWrapper</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
