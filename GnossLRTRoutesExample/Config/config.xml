@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" standalone="yes"?>
+<config>
+  <apiEndpoint>http://serviciostry.gnoss.com/api/v3</apiEndpoint>
+  <communityShortName></communityShortName>
+  <developerEmail>test@gnos.com</developerEmail>
+  <ontologyName>rtroute.owl</ontologyName>
+  <consumer>
+    <consumerKey></consumerKey>
+    <consumerSecret></consumerSecret>
+  </consumer>
+  <token>
+    <tokenKey></tokenKey>
+    <tokenSecret></tokenSecret>
+  </token>
+<log>
+  <logPath>c:\logs</logPath>
+  <logFileName>gnossapi.log</logFileName>
+  <logLevel>TRACE</logLevel>
+</log>
+</config>
