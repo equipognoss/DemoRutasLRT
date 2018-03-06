@@ -426,6 +426,11 @@ namespace GnossLRTRoutesExample
                 {
                     bytes = webClient.DownloadData($"http://content1.lariojaturismo.com/{relativeImagePath}");
 
+                    if (imagePath.Contains("?"))
+                    {
+                        imagePath = imagePath.Substring(0, imagePath.IndexOf('?'));
+                    }
+
                     FileInfo info = new FileInfo(imagePath);
 
                     if (!Directory.Exists(info.Directory.FullName))
