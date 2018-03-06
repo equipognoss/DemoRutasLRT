@@ -10,7 +10,7 @@
         <DescripcionDoc EntidadID="http://protege.stanford.edu/rdf/HTOv4002#Gastro">http://protege.stanford.edu/rdf/HTOv4002#longDescription</DescripcionDoc>
         <HtmlNuevo>true</HtmlNuevo>
 		<IncluirIconoGnoss></IncluirIconoGnoss>
-		<!--<CategorizacionTesauroGnossObligatoria>false</CategorizacionTesauroGnossObligatoria>-->
+		<CategorizacionTesauroGnossObligatoria>false</CategorizacionTesauroGnossObligatoria>
 		<GruposEditoresFijos><Grupo Organizacion="lariojaturismo">editoreslrt</Grupo></GruposEditoresFijos>
 		<ImagenDoc EntidadID="http://www.eharmonise/2014-03-12#Image">http://www.eharmonise/2014-03-12#image</ImagenDoc>	
 		<MultiIdioma> </MultiIdioma>

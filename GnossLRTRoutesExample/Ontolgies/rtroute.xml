@@ -10,6 +10,7 @@
 		<DescripcionDoc EntidadID="http://www.obertadecatalunya/route#Route">http://www.eroute/2014-04-28#routeFeature</DescripcionDoc>
 		<HtmlNuevo>true</HtmlNuevo>
 		<IncluirIconoGnoss></IncluirIconoGnoss>
+		<CategorizacionTesauroGnossObligatoria>false</CategorizacionTesauroGnossObligatoria>
 		<GruposEditoresFijos><Grupo Organizacion="lariojaturismo">editoreslrt</Grupo></GruposEditoresFijos>
 		<MultiIdioma> </MultiIdioma>
 		<OcultarEditoresDoc></OcultarEditoresDoc>

@@ -10,6 +10,7 @@
 		<DescripcionDoc EntidadID="http://www.eroute/2014-04-28#Landmark">http://www.eroute/2014-04-28#landmarkDescription</DescripcionDoc>
 		<HtmlNuevo>true</HtmlNuevo>
 		<IncluirIconoGnoss></IncluirIconoGnoss>
+		<CategorizacionTesauroGnossObligatoria>false</CategorizacionTesauroGnossObligatoria>
 		<MultiIdioma></MultiIdioma>
 		<OcultarEditoresDoc></OcultarEditoresDoc>
 		<OcultarPublicadorDoc></OcultarPublicadorDoc>
