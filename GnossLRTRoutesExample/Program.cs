@@ -123,8 +123,6 @@ namespace GnossLRTRoutesExample
 
             if (route.Properties.ContainsKey(Constants.RouteProperties.Ads))
             {
-                recurso.Description = route.Properties[Constants.RouteProperties.Ads].Objects[0].Value;
-
                 foreach (ObjectWithLanguage obj in route.Properties[Constants.RouteProperties.Ads].Objects)
                 {
                     listPropiedades.Add(new StringOntologyProperty(Constants.RouteProperties.AdsWithNamespace, obj.Value, obj.Language));
@@ -133,8 +131,6 @@ namespace GnossLRTRoutesExample
 
             if (route.Properties.ContainsKey(Constants.RouteProperties.Color))
             {
-                recurso.Description = route.Properties[Constants.RouteProperties.Color].Objects[0].Value;
-
                 foreach (ObjectWithLanguage obj in route.Properties[Constants.RouteProperties.Color].Objects)
                 {
                     listPropiedades.Add(new StringOntologyProperty(Constants.RouteProperties.ColorWithNamespace, obj.Value, obj.Language));
@@ -143,8 +139,6 @@ namespace GnossLRTRoutesExample
 
             if (route.Properties.ContainsKey(Constants.RouteProperties.Date))
             {
-                recurso.Description = route.Properties[Constants.RouteProperties.Date].Objects[0].Value;
-
                 foreach (ObjectWithLanguage obj in route.Properties[Constants.RouteProperties.Date].Objects)
                 {
                     listPropiedades.Add(new StringOntologyProperty(Constants.RouteProperties.DateWithNamespace, obj.Value, obj.Language));
@@ -153,8 +147,6 @@ namespace GnossLRTRoutesExample
 
             if (route.Properties.ContainsKey(Constants.RouteProperties.GpsRoute))
             {
-                recurso.Description = route.Properties[Constants.RouteProperties.GpsRoute].Objects[0].Value;
-
                 foreach (ObjectWithLanguage obj in route.Properties[Constants.RouteProperties.GpsRoute].Objects)
                 {
                     listPropiedades.Add(new StringOntologyProperty(Constants.RouteProperties.GpsRouteWithNamespace, obj.Value, obj.Language));
@@ -163,8 +155,6 @@ namespace GnossLRTRoutesExample
 
             if (route.Properties.ContainsKey(Constants.RouteProperties.HeadOf))
             {
-                recurso.Description = route.Properties[Constants.RouteProperties.HeadOf].Objects[0].Value;
-
                 foreach (ObjectWithLanguage obj in route.Properties[Constants.RouteProperties.HeadOf].Objects)
                 {
                     listPropiedades.Add(new StringOntologyProperty(Constants.RouteProperties.HeadOfWithNamespace, obj.Value, obj.Language));
@@ -173,8 +163,6 @@ namespace GnossLRTRoutesExample
 
             if (route.Properties.ContainsKey(Constants.RouteProperties.Hunts))
             {
-                recurso.Description = route.Properties[Constants.RouteProperties.Hunts].Objects[0].Value;
-
                 foreach (ObjectWithLanguage obj in route.Properties[Constants.RouteProperties.Hunts].Objects)
                 {
                     listPropiedades.Add(new StringOntologyProperty(Constants.RouteProperties.HuntsWithNamespace, obj.Value, obj.Language));
@@ -183,8 +171,6 @@ namespace GnossLRTRoutesExample
 
             if (route.Properties.ContainsKey(Constants.RouteProperties.Pdf))
             {
-                recurso.Description = route.Properties[Constants.RouteProperties.Pdf].Objects[0].Value;
-
                 foreach (ObjectWithLanguage obj in route.Properties[Constants.RouteProperties.Pdf].Objects)
                 {
                     listPropiedades.Add(new StringOntologyProperty(Constants.RouteProperties.PdfWithNamespace, obj.Value, obj.Language));
@@ -193,8 +179,6 @@ namespace GnossLRTRoutesExample
 
             if (route.Properties.ContainsKey(Constants.RouteProperties.Points))
             {
-                recurso.Description = route.Properties[Constants.RouteProperties.Points].Objects[0].Value;
-
                 foreach (ObjectWithLanguage obj in route.Properties[Constants.RouteProperties.Points].Objects)
                 {
                     listPropiedades.Add(new StringOntologyProperty(Constants.RouteProperties.PointsWithNamespace, obj.Value, obj.Language));
@@ -203,8 +187,6 @@ namespace GnossLRTRoutesExample
 
             if (route.Properties.ContainsKey(Constants.RouteProperties.Publication))
             {
-                recurso.Description = route.Properties[Constants.RouteProperties.Publication].Objects[0].Value;
-
                 foreach (ObjectWithLanguage obj in route.Properties[Constants.RouteProperties.Publication].Objects)
                 {
                     listPropiedades.Add(new StringOntologyProperty(Constants.RouteProperties.PublicationWithNamespace, obj.Value, obj.Language));
@@ -213,8 +195,6 @@ namespace GnossLRTRoutesExample
 
             if (route.Properties.ContainsKey(Constants.RouteProperties.RouteFeature))
             {
-                recurso.Description = route.Properties[Constants.RouteProperties.RouteFeature].Objects[0].Value;
-
                 foreach (ObjectWithLanguage obj in route.Properties[Constants.RouteProperties.RouteFeature].Objects)
                 {
                     listPropiedades.Add(new StringOntologyProperty(Constants.RouteProperties.RouteFeatureWithNamespace, obj.Value, obj.Language));
@@ -223,8 +203,6 @@ namespace GnossLRTRoutesExample
 
             if (route.Properties.ContainsKey(Constants.RouteProperties.RouteId))
             {
-                recurso.Description = route.Properties[Constants.RouteProperties.RouteId].Objects[0].Value;
-
                 foreach (ObjectWithLanguage obj in route.Properties[Constants.RouteProperties.RouteId].Objects)
                 {
                     listPropiedades.Add(new StringOntologyProperty(Constants.RouteProperties.RouteIdWithNamespace, obj.Value, obj.Language));
@@ -233,8 +211,6 @@ namespace GnossLRTRoutesExample
 
             if (route.Properties.ContainsKey(Constants.RouteProperties.RouteNaturalValue))
             {
-                recurso.Description = route.Properties[Constants.RouteProperties.RouteNaturalValue].Objects[0].Value;
-
                 foreach (ObjectWithLanguage obj in route.Properties[Constants.RouteProperties.RouteNaturalValue].Objects)
                 {
                     listPropiedades.Add(new StringOntologyProperty(Constants.RouteProperties.RouteNaturalValueWithNamespace, obj.Value, obj.Language));
@@ -243,8 +219,6 @@ namespace GnossLRTRoutesExample
 
             if (route.Properties.ContainsKey(Constants.RouteProperties.RouteNumber))
             {
-                recurso.Description = route.Properties[Constants.RouteProperties.RouteNumber].Objects[0].Value;
-
                 foreach (ObjectWithLanguage obj in route.Properties[Constants.RouteProperties.RouteNumber].Objects)
                 {
                     listPropiedades.Add(new StringOntologyProperty(Constants.RouteProperties.RouteNumberWithNamespace, obj.Value, obj.Language));
@@ -253,8 +227,6 @@ namespace GnossLRTRoutesExample
 
             if (route.Properties.ContainsKey(Constants.RouteProperties.Source))
             {
-                recurso.Description = route.Properties[Constants.RouteProperties.Source].Objects[0].Value;
-
                 foreach (ObjectWithLanguage obj in route.Properties[Constants.RouteProperties.Source].Objects)
                 {
                     listPropiedades.Add(new StringOntologyProperty(Constants.RouteProperties.SourceWithNamespace, obj.Value, obj.Language));
@@ -263,8 +235,6 @@ namespace GnossLRTRoutesExample
 
             if (route.Properties.ContainsKey(Constants.RouteProperties.TouristInformation))
             {
-                recurso.Description = route.Properties[Constants.RouteProperties.TouristInformation].Objects[0].Value;
-
                 foreach (ObjectWithLanguage obj in route.Properties[Constants.RouteProperties.TouristInformation].Objects)
                 {
                     listPropiedades.Add(new StringOntologyProperty(Constants.RouteProperties.TouristInformationWithNamespace, obj.Value, obj.Language));
@@ -273,8 +243,6 @@ namespace GnossLRTRoutesExample
 
             if (route.Properties.ContainsKey(Constants.RouteProperties.Trail))
             {
-                recurso.Description = route.Properties[Constants.RouteProperties.Trail].Objects[0].Value;
-
                 foreach (ObjectWithLanguage obj in route.Properties[Constants.RouteProperties.Trail].Objects)
                 {
                     listPropiedades.Add(new StringOntologyProperty(Constants.RouteProperties.TrailWithNamespace, obj.Value, obj.Language));
@@ -283,8 +251,6 @@ namespace GnossLRTRoutesExample
 
             if (route.Properties.ContainsKey(Constants.RouteProperties.Region))
             {
-                recurso.Description = route.Properties[Constants.RouteProperties.Region].Objects[0].Value;
-
                 foreach (ObjectWithLanguage obj in route.Properties[Constants.RouteProperties.Region].Objects)
                 {
                     listPropiedades.Add(new StringOntologyProperty(Constants.RouteProperties.RegionWithNamespace, obj.Value, obj.Language));
@@ -293,8 +259,6 @@ namespace GnossLRTRoutesExample
 
             if (route.Properties.ContainsKey(Constants.RouteProperties.Duration))
             {
-                recurso.Description = route.Properties[Constants.RouteProperties.Duration].Objects[0].Value;
-
                 foreach (ObjectWithLanguage obj in route.Properties[Constants.RouteProperties.Duration].Objects)
                 {
                     listPropiedades.Add(new StringOntologyProperty(Constants.RouteProperties.DurationWithNamespace, obj.Value, obj.Language));
@@ -303,8 +267,6 @@ namespace GnossLRTRoutesExample
 
             if (route.Properties.ContainsKey(Constants.RouteProperties.Length))
             {
-                recurso.Description = route.Properties[Constants.RouteProperties.Length].Objects[0].Value;
-
                 foreach (ObjectWithLanguage obj in route.Properties[Constants.RouteProperties.Length].Objects)
                 {
                     listPropiedades.Add(new StringOntologyProperty(Constants.RouteProperties.LengthWithNamespace, obj.Value, obj.Language));
@@ -313,8 +275,6 @@ namespace GnossLRTRoutesExample
 
             if (route.Properties.ContainsKey(Constants.RouteProperties.Signaling))
             {
-                recurso.Description = route.Properties[Constants.RouteProperties.Signaling].Objects[0].Value;
-
                 foreach (ObjectWithLanguage obj in route.Properties[Constants.RouteProperties.Signaling].Objects)
                 {
                     listPropiedades.Add(new StringOntologyProperty(Constants.RouteProperties.SignalingWithNamespace, obj.Value, obj.Language));
@@ -323,8 +283,6 @@ namespace GnossLRTRoutesExample
 
             if (route.Properties.ContainsKey(Constants.RouteProperties.Url))
             {
-                recurso.Description = route.Properties[Constants.RouteProperties.Url].Objects[0].Value;
-
                 foreach (ObjectWithLanguage obj in route.Properties[Constants.RouteProperties.Url].Objects)
                 {
                     listPropiedades.Add(new StringOntologyProperty(Constants.RouteProperties.UrlWithNamespace, obj.Value, obj.Language));
